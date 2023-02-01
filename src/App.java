@@ -367,7 +367,7 @@ public class App {
 							// + ArraylistRental.getHarga(i));
 							// }
 							ArraylistRental.displayRentalCostumer();
-							System.out.print("Masukan Id penyewa yang ingin dihapus : ");
+							System.out.print("Masukan Id rental yang ingin dihapus : ");
 							int id = scannerInt.nextInt();
 							// validate the id
 							if (id < 0 || id >= ArraylistRental.getSize()) {
